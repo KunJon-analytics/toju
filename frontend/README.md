@@ -1,120 +1,79 @@
-# NFT Explorer CW3D Template
+# Toju Project Frontend
 
-This NFT Explorer dapp is set up to be created using the create-web3-dapp npx package.
-![image](https://user-images.githubusercontent.com/72762629/235919616-ba92fb9e-c171-4d7f-a928-862c80009075.png)
-
-## Resources
-Please refer to CW3D's documentation and the following useful links for an in depth explanation of how to work with projects bootstrapped with CW3D:
-
--   [Docs](https://docs.alchemy.com/docs/create-web3-dapp) - Everything you need to know when using CW3D
--   [GitHub](https://github.com/alchemyplatform/create-web3-dapp) - look at the extensive code example or start contributing
--   [Website](https://createweb3dapp.alchemy.com) - Learn more about CW3D and add components to your project
--   [Templates](https://createweb3dapp.alchemy.com/#templates) - Check out the pre-built project templates
--   [Components Library](https://createweb3dapp.alchemy.com/#components) - Add features directly to your project through components
--   [Examples](https://github.com/alchemyplatform/create-web3-dapp-examples) - See the components implemented in a real world dapp
--   [Community](https://t.me/createweb3dapp) - Meet other builders, get support, and give feedback!
-
-## Overview
-
-This project contains a fully fledged Next.js based NFT Explorer capable of fetching nfts by:
-- Collections
-- External and connected wallet
-
-Across all EVM compatible chains.
-
-Created using [Create Web3 Dapp](https://github.com/alchemyplatform/create-web3-dapp). It is , providing you with a seamless way to get your dApp up and running in no time.
-
-This boilerplate is built using [CW3D (Create Web3 Dapp)](https://github.com/alchemyplatform/create-web3-dapp), a powerful tool developed by [Alchemy](https://www.alchemy.com/) that allows developers to rapidly create and deploy dApps.
-
-## What's Included?
-
-This boilerplate has everything you need to start building a dapp:
-
-- Next.js
-- Wagmi Hooks
-- Ethers.js
-- Rainbowkit
-- Alchemy SDK
-
-## Supported Chains
-
-The project supports all the major EVM chains:
-
- - Ethereum
- - Polygon
- - Arbitrum
- - Optimism
-
+This folder contains the frontend code for the Toju Project. The frontend is built using Next.js and provides the user interface for interacting with the Toju platform.
 
 ## Getting Started
 
-### Prerequisites
+Before running the frontend application, make sure you have Node.js and npm (or yarn) installed on your machine.
 
-To get started with this boilerplate, you'll need to have the following software installed on your local machine:
+1. Clone this repository to your local machine:
 
-- [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/)
-- [Git](https://git-scm.com/)
-
-### Installation
-
-1. Run create web3 dapp in your terminal and select the NFT Explorer template:
-  ```
-    npx create-web3-dapp@latest 
-  ```
-
-  
-2. Navigate to the project directory:
-   ```
-   cd my-create-web3-dapp
+   ```bash
+   git clone https://github.com/KunJon-analytics/toju.git
    ```
 
-  
-Navigate to the[docs](https://docs.alchemy.com/docs/create-web3-dapp) to learn more about using cw3d to spin up your web3 applications
+2. Navigate to the `frontend` folder:
 
-
-### Running the Project
-
-1. Inside the project folder, start the local development server:
+   ```bash
+   cd frontend
    ```
-   yarn run dev
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
    ```
-2. Open your browser and navigate to [`http://localhost:3000/`](http://localhost:3000/) to view the dApp in action.
 
+4. Configure Ethereum Network:
 
-## Project Structure
+   - Make sure you have a compatible Ethereum wallet (e.g., MetaMask) installed in your browser.
+   - Connect your wallet to the Sepolia testnet.
 
-The boilerplate consists of two main directories:
+5. Start the development server:
 
-- `backend`: Contains the Hardhat configuration and Solidity smart contracts.
-- `frontend`: Contains the Next.js frontend application and related components.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-```
-📦root
- ┣ 📂components
- ┃ ┣ 📂navigation
- ┃ ┃ ┗ 📜navbar.jsx
- ┃ ┗ 📜nftGallery.jsx
- ┣ 📂layout
- ┃ ┗ 📜mainLayout.jsx
- ┣ 📂pages
- ┃ ┣ 📂api
- ┃ ┃ ┣ 📜getNftsForCollection.js
- ┃ ┃ ┗ 📜getNftsForOwner.js
- ┃ ┣ 📜_app.js
- ┃ ┗ 📜index.jsx
- ┣ 📂public
- ┃ ┗ 📜alchemy_logo.svg
- ┣ 📂styles
- ┃ ┣ 📜Home.module.css
- ┃ ┣ 📜Navbar.module.css
- ┃ ┣ 📜NftGallery.module.css
- ┃ ┗ 📜globals.css
- ┣ 📜.env.local
- ┣ 📜.gitignore
- ┣ 📜README.md
- ┣ 📜package-lock.json
- ┗ 📜package.json
-```
+6. Access the Toju frontend in your browser at [http://localhost:3000](http://localhost:3000).
 
-Start editing the `pages/index.jsx` file in the `frontend` directory to customize the project according to your own needs!
+## Features
+
+- **Connect Wallet:** Users can connect their wallets and view their balance on the Toju platform.
+
+- **Project Listing:** Browse and search for projects created by content creators.
+
+- **Support Projects:** Supporters can back projects using TOJU tokens.
+
+- **Creator Dashboard:** Content creators have access to a dashboard to manage their projects and view contributions.
+
+## Technologies Used
+
+- Next.js: The React framework for building the user interface.
+
+- Wagmi Hooks
+
+- Ethers.js
+
+- Rainbowkit
+
+- Alchemy SDK
+
+## Contributing
+
+We welcome contributions to enhance the Toju Project frontend. If you have ideas, bug reports, or want to contribute code, please follow our [Contributing Guidelines](CONTRIBUTING.md).
+
+## License
+
+This frontend code for the Toju Project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For questions or feedback related to the frontend, please feel free to contact us:
+
+- Email: [johnadelakun1@gmail.com](mailto:johnadelakun1@gmail.com)
+- Twitter: [@kunjongroup](https://twitter.com/kunjongroup)
