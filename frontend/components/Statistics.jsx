@@ -68,13 +68,11 @@ export default function Statistics() {
           stat={"5,000"}
           icon={<BsPerson size={"3em"} />}
         />
-        {!countLoading && (
-          <StatsCard
-            title={"Projects"}
-            stat={parseInt(count)}
-            icon={<FiServer size={"3em"} />}
-          />
-        )}
+        <StatsCard
+          title={"Projects"}
+          stat={parseInt(count)}
+          icon={<FiServer size={"3em"} />}
+        />
         <StatsCard
           title={"TOJU Exchanged"}
           stat={"1,000,000"}
