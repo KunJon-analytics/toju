@@ -13,7 +13,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { Roboto } from "next/font/google";
 import { sepolia } from "wagmi/chains";
 import { publicProvider } from "wagmi/providers/public";
-import MainLayout from "../layout/mainLayout";
+import MainLayout from "../layout/MainLayout";
 import { theme } from "../styles/theme";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500", "700"] });
