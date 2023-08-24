@@ -63,10 +63,6 @@ Before running the frontend application, make sure you have Node.js and npm (or 
 
 - Alchemy SDK
 
-## Contributing
-
-We welcome contributions to enhance the Toju Project frontend. If you have ideas, bug reports, or want to contribute code, please follow our [Contributing Guidelines](CONTRIBUTING.md).
-
 ## License
 
 This frontend code for the Toju Project is licensed under the [MIT License](LICENSE).
